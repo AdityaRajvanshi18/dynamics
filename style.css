@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.slider-container{
+    width: 334px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-slide{
+    display: flex;
+    width: 100%;
+    /*height: 500px;*/
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.box{
+    position: absolute;
+    top: 95%;
+    z-index: 10;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+.one{
+    left: 42.5%;
+}
+.two{
+    left: 47.5%;
+}
+.three{
+    left: 52.5%;
+}
+.four{
+    left: 57.5%;
+}
+
+.fa-circle{
+    color: white;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.reg{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    opacity: 0.5;
+}
+
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    opacity: 0.5; 
+}
